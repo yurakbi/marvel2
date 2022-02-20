@@ -17,10 +17,28 @@ class CharList extends Component {
     marvelService = new MarvelService();
 
     componentDidMount() {
-        this.onRequest()
+        if(this.state.offset < 219) {
+            this.onRequest();
+        }
+        window.addEventListener('scroll', this.onScroll);
+    }
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.onScroll);
+    }
+
+    onScroll= () => {
+        if(this.state.offset < 219) return;
+        if(this.state.newLoadingItem) return;
+        if(this.state.charEnded ) {
+            window.addEventListener('scroll', this.onScroll);
+        }
+        if(window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+            this.onRequest(this.state.offset)
+        }
     }
 
     onRequest = (offset) => {
+        this.onCharListLoading()
         this.marvelService.getAllCharacters(offset)
         .then(this.onCharListLoaded)
         .catch(this.onError)
