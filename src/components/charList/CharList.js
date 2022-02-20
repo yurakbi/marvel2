@@ -17,9 +17,7 @@ class CharList extends Component {
     marvelService = new MarvelService();
 
     componentDidMount() {
-        if(this.state.offset < 219) {
-            this.onRequest();
-        }
+        this.onRequest();
         window.addEventListener('scroll', this.onScroll);
     }
     componentWillUnmount() {
@@ -27,7 +25,6 @@ class CharList extends Component {
     }
 
     onScroll= () => {
-        if(this.state.offset < 219) return;
         if(this.state.newLoadingItem) return;
         if(this.state.charEnded ) {
             window.addEventListener('scroll', this.onScroll);
