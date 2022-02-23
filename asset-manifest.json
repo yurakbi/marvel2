@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/marvel2/static/css/main.6cc5e45a.chunk.css",
-    "main.js": "/marvel2/static/js/main.0efc1832.chunk.js",
-    "main.js.map": "/marvel2/static/js/main.0efc1832.chunk.js.map",
+    "main.css": "/marvel2/static/css/main.6cf05c4c.chunk.css",
+    "main.js": "/marvel2/static/js/main.069ae506.chunk.js",
+    "main.js.map": "/marvel2/static/js/main.069ae506.chunk.js.map",
     "runtime-main.js": "/marvel2/static/js/runtime-main.540ef8cd.js",
     "runtime-main.js.map": "/marvel2/static/js/runtime-main.540ef8cd.js.map",
     "static/js/2.5e8bb286.chunk.js": "/marvel2/static/js/2.5e8bb286.chunk.js",
     "static/js/2.5e8bb286.chunk.js.map": "/marvel2/static/js/2.5e8bb286.chunk.js.map",
     "index.html": "/marvel2/index.html",
-    "static/css/main.6cc5e45a.chunk.css.map": "/marvel2/static/css/main.6cc5e45a.chunk.css.map",
+    "static/css/main.6cf05c4c.chunk.css.map": "/marvel2/static/css/main.6cf05c4c.chunk.css.map",
     "static/js/2.5e8bb286.chunk.js.LICENSE.txt": "/marvel2/static/js/2.5e8bb286.chunk.js.LICENSE.txt",
     "static/media/error.fd98ce08.gif": "/marvel2/static/media/error.fd98ce08.gif",
     "static/media/mjolnir.61f31e18.png": "/marvel2/static/media/mjolnir.61f31e18.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.540ef8cd.js",
     "static/js/2.5e8bb286.chunk.js",
-    "static/css/main.6cc5e45a.chunk.css",
-    "static/js/main.0efc1832.chunk.js"
+    "static/css/main.6cf05c4c.chunk.css",
+    "static/js/main.069ae506.chunk.js"
   ]
 }
